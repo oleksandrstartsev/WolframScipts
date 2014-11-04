@@ -1,0 +1,87 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 9.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[      2163,         77]
+NotebookOptionsPosition[      1851,         61]
+NotebookOutlinePosition[      2194,         76]
+CellTagsIndexPosition[      2151,         73]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"Mask43", "=", 
+   RowBox[{"ArrayReshape", "[", 
+    RowBox[{
+     RowBox[{"Transpose", "@", 
+      RowBox[{"ArrayReshape", "[", 
+       RowBox[{
+        RowBox[{"ArrayReshape", "[", 
+         RowBox[{
+          RowBox[{"Transpose", "@", 
+           RowBox[{"ArrayReshape", "[", 
+            RowBox[{
+             RowBox[{"Table", "[", 
+              RowBox[{
+               RowBox[{"h", "[", "i", "]"}], ",", 
+               RowBox[{"{", 
+                RowBox[{"i", ",", 
+                 RowBox[{"320", "*", "240"}]}], "}"}]}], "]"}], ",", 
+             RowBox[{"{", 
+              RowBox[{"320", ",", "240"}], "}"}]}], "]"}]}], ",", 
+          RowBox[{"{", 
+           RowBox[{"80", ",", "240", ",", "4"}], "}"}]}], "]"}], ",", 
+        RowBox[{"{", 
+         RowBox[{"240", ",", "80", ",", "4"}], "}"}]}], "]"}]}], ",", 
+     RowBox[{"{", 
+      RowBox[{"80", ",", "80", ",", "12"}], "}"}]}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"h", "[", "i_", "]"}], ":=", "i"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{"Mask43", "[", 
+  RowBox[{"[", 
+   RowBox[{"1", ",", "1", ",", "2"}], "]"}], "]"}]}], "Input"],
+
+Cell[BoxData["241"], "Output",
+ CellChangeTimes->{3.5921547184047914`*^9}]
+}, Open  ]]
+},
+WindowSize->{1350, 643},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"9.0 for Microsoft Windows (32-bit) (January 25, 2013)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[579, 22, 1179, 33, 106, "Input"],
+Cell[1761, 57, 74, 1, 45, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
